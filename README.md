@@ -1,54 +1,65 @@
 # Trader Tykoon Q38
 
-A research and execution intelligence workspace for market monitoring, signal review, trade planning, and operational oversight.
+Trader Tykoon Q38 is a disciplined trading intelligence platform designed to help operators make better, more transparent, and safer decisions in volatile markets.
 
-This repository is intentionally documentation-first. It captures the product strategy, architecture, decision framework, and operational model before implementation begins.
+This repository is intentionally structured as a planning-first, documentation-first system. It captures the business case, technical architecture, operational model, and execution roadmap before implementation begins.
 
-## Documentation map
+## Executive summary
 
-- [AGENTS.md](AGENTS.md) — operating blueprint for agents and contributors
-- [PRD.md](PRD.md) — product requirements document
-- [ARCHITECTURE.md](ARCHITECTURE.md) — system and component architecture
-- [ROADMAP.md](ROADMAP.md) — phases and milestones
-- [CONTRIBUTING.md](CONTRIBUTING.md) — contribution rules and review process
-- [INTEGRATION.md](INTEGRATION.md) — external integrations and dependencies
-- [.DESIGN.md](.DESIGN.md) — design principles and standards
-- [docs/index.html](docs/index.html) — browser-friendly documentation landing page
-- [docs/](docs) — detailed markdown and HTML documentation
-- [skills/](skills) — collaborative operational guidance for future agents
+- Market problem: fragmented market intelligence and manual review create decision risk.
+- Product thesis: unify signal review, risk policy, and operational oversight in one traceable workflow.
+- Operating model: document-first, human-governed, and audit-friendly by design.
+- Delivery approach: phased rollout from observability to signal review to risk-controlled execution.
 
-## Product intent
+## Repo purpose
 
-Trader Tykoon Q38 is designed as a structured trading intelligence platform that supports:
+This project is organized to serve three audiences simultaneously:
 
-- market data aggregation and signal validation
-- trade idea lifecycle management
-- human-in-the-loop risk review
-- dashboarding and operational status visibility
-- extensible integrations with broker, data, and notification systems
+- investors and executives who need strategic clarity and delivery logic
+- engineers who need technical boundaries and integration requirements
+- contributors and agents who need a navigable operating system for work
 
-## Project posture
+## Documentation set
 
-This repository is the documentation and planning layer for a future implementation. No production code is included yet.
+- [PRD.md](PRD.md) — product requirements and product-market definition
+- [ARCHITECTURE.md](ARCHITECTURE.md) — system architecture and component boundaries
+- [ROADMAP.md](ROADMAP.md) — phased milestones and sequencing
+- [CONTRIBUTING.md](CONTRIBUTING.md) — contribution standards and review workflow
+- [INTEGRATION.md](INTEGRATION.md) — integration contracts and platform dependencies
+- [.DESIGN.md](.DESIGN.md) — core design principles and standards
+- [AGENTS.md](AGENTS.md) — agent operating model and repository navigation
+- [docs/exec-overview.md](docs/exec-overview.md) — investor- and executive-facing narrative
+- [docs/technical-spec.md](docs/technical-spec.md) — engineering design specification
+- [docs/startup-repo-structure.md](docs/startup-repo-structure.md) — final polished repo architecture and operating blueprint
+- [docs/index.html](docs/index.html) — project documentation landing page
+
+## Product vision
+
+Builder mindset: create a market intelligence and decision framework that helps teams move from raw data to disciplined action with risk accountability and operational clarity.
+
+## Design philosophy
+
+The project is built around five principles:
+
+1. clarity over opacity
+2. explainability over black-box automation
+3. human oversight at sensitive decision points
+4. provenance from source data to final action
+5. a reviewable system that scales without becoming chaotic
 
 ## Status
 
-- Planning status: active
-- Documentation status: in progress
-- Implementation status: pending
+- Planning status: active and structured
+- Engineering implementation: deferred until architecture and risk gates are validated
+- Core objective: create a maintainable platform foundation before writing production code
 
-## Documentation standards
+## How to use this repo
 
-The project uses an ICM-style structure: numbered flow, human gates, clear contracts, and explicit handoff points. This keeps the workspace legible for both human teams and autonomous agents.
+- Start here for a business overview: [README.md](README.md)
+- Start here for system architecture: [ARCHITECTURE.md](ARCHITECTURE.md)
+- Start here for delivery sequencing: [ROADMAP.md](ROADMAP.md)
+- Start here for operating rules: [AGENTS.md](AGENTS.md)
 
-## Immediate next steps
+## Final note
 
-1. Confirm the target market and trading model
-2. Validate user roles and operational risk requirements
-3. Finalize the system boundaries and integration map
-4. Convert the PRD into a backlog and milestone plan
-5. Begin implementation of the first observability and data ingestion layer
-
----
-
-This repository is intentionally a planning scaffold for a disciplined, reviewable trading system.
+This repository is designed as a startup-grade planning foundation: polished enough for stakeholder confidence, disciplined enough for engineering execution, and structured enough for future autonomous collaboration.
