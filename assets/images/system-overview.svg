@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Trader Tykoon Q38 System Overview</title>
+  <desc id="desc">A diagram showing data ingestion, signal processing, risk review, and monitoring layers.</desc>
+  <rect width="1200" height="700" fill="#f8fafc"/>
+  <text x="600" y="52" font-size="32" text-anchor="middle" font-family="Arial, sans-serif" fill="#0f172a">Trader Tykoon Q38 — System Overview</text>
+
+  <rect x="80" y="120" width="200" height="130" rx="14" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="180" y="165" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#0f172a">Market Data</text>
+  <text x="180" y="195" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#334155">Feeds</text>
+
+  <rect x="340" y="120" width="220" height="130" rx="14" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <text x="450" y="165" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#0f172a">Ingestion</text>
+  <text x="450" y="195" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#334155">Normalization</text>
+
+  <rect x="620" y="120" width="220" height="130" rx="14" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="730" y="165" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#0f172a">Signals</text>
+  <text x="730" y="195" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#334155">Context</text>
+
+  <rect x="900" y="120" width="220" height="130" rx="14" fill="#fce7f3" stroke="#be185d" stroke-width="2"/>
+  <text x="1010" y="165" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#0f172a">Review</text>
+  <text x="1010" y="195" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#334155">Evaluation</text>
+
+  <rect x="260" y="390" width="240" height="150" rx="14" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+  <text x="380" y="440" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#0f172a">Risk &amp; Policy</text>
+  <text x="380" y="470" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#334155">Control Gate</text>
+
+  <rect x="560" y="390" width="240" height="150" rx="14" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+  <text x="680" y="440" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#0f172a">Execution</text>
+  <text x="680" y="470" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#334155">Action Layer</text>
+
+  <rect x="860" y="390" width="240" height="150" rx="14" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+  <text x="980" y="440" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#0f172a">Monitoring</text>
+  <text x="980" y="470" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#334155">Ops &amp; Audit</text>
+
+  <path d="M280 185 H340" stroke="#334155" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M560 185 H620" stroke="#334155" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M840 185 H900" stroke="#334155" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M1010 250 L1010 330 L380 330 L380 390" stroke="#334155" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M380 540 L380 590 L680 590 L680 540" stroke="#334155" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M680 540 L680 610 L980 610 L980 540" stroke="#334155" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>
